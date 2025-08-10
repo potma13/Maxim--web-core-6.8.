@@ -1,0 +1,111 @@
+body {
+    font-family: TT Lakes;
+    color: #1B1C21;
+}
+.menu__body {
+    padding: 24px 16px 24px 16px;
+}
+.menu__header {
+}
+.menu-header__item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+.menu-header-icon__group {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    align-items: center;
+}
+.menu-header__icon {
+}
+.menu-header-icon-group__line {
+    margin: 0px 15px;
+}
+.line {
+    width: 2px;
+    height: 32px;
+    background-color: #000000 /* для наглядности чёрный сделал */
+}
+.tab__body {
+    padding: 24px 16px 24px 16px;
+    background-color: #F8F8F8;
+}
+.tab__header {
+}
+.tab-header__item {
+}
+.title {
+    justify-content: space-between;
+    display: flex;
+}
+.title__text {
+    font-weight: 700;
+    font-size: 28px;
+    position: relative;
+    margin-bottom: 24px;
+}
+.title__text::before {
+    content: "";
+    position: absolute;
+    left: -24px;
+    top: 0;
+    width: 6px;
+    height: 40px;
+    background: #41F6D7;
+    border-radius: 3px;
+}
+.title__buttons {
+    display: flex;
+    gap: 30px;
+}
+.title__button {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.title-button__text {
+    font-weight: 500;
+}
+.title-button__icon {
+}
+.scroll-menu {
+    display: flex;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+.scroll-menu::-webkit-scrollbar {
+    display: none;
+}
+.scroll-menu__text {
+    padding: 8px 16px 8px 16px;
+    cursor: pointer;
+}
+.scroll-menu__text--active {
+    border: 2px solid #B8FFEC;
+    border-radius: 6px;
+}
+.tab__container {
+    margin-top: 24px;
+}
+.tab-container__item {
+}
+.tab-subtitle__text {
+    font-size: 14px;
+    margin-bottom: 16px;
+}
+.expand {
+    display: flex;
+    gap: 8px;
+}
+.expand__icon {
+}
+.expand__text {
+    font-weight: 500;
+}
+.item__image img {
+    margin: 16px 0 0 -24px;
+    width: 430px;
+    height: 176;
+}
